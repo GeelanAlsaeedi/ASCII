@@ -44,7 +44,7 @@ def pixel_map_ascii (image):
 
 def main(new_width = 80):
     # take in an image 
-    path = "img_hulk.png"
+    path = "ASCII\drawing256.png"
     try:
         image = PIL.Image.open(path)
     except:
